@@ -1,15 +1,13 @@
-def tmp(step, stop):
-    while tempo < stop:
-        tempo += step
-        print(tempo)
+tmp = 40
+print(tmp)
 
-tempo = 40
-print(tempo)
+def tempo(tmp, step, stop):
+    while tmp < stop:
+        tmp += step
+        print(tmp)
 
-tmp(2, 60)
-tmp(3, 72)
-tmp(4, 120)
-tmp(6, 144)
-tmp(8, 208)
-
-
+tempo(tmp, 2, 60)
+tempo(60, 3, 72)
+tempo(72, 4, 120)
+tempo(120, 6, 144)
+tempo(144, 8, 208)
